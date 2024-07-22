@@ -25,7 +25,7 @@ const SidebarItem: FC<SidebarItemProps> = ({ fill, outline, title, route }) => {
           <div className="pointer-events-none select-none">
             <Icon>{pathname === route ? fill : outline}</Icon>
           </div>
-          <p className="pointer-events-none select-none text-xl leading-none">
+          <p className="pointer-events-none select-none text-xl leading-none transition-opacity duration-200 max-md:opacity-0">
             {title}
           </p>
         </Link>
@@ -34,7 +34,7 @@ const SidebarItem: FC<SidebarItemProps> = ({ fill, outline, title, route }) => {
           <div className="pointer-events-none select-none">
             <Icon>{outline}</Icon>
           </div>
-          <p className="pointer-events-none select-none text-xl leading-none">
+          <p className="pointer-events-none select-none text-xl leading-none transition-opacity duration-200 max-md:opacity-0">
             {title}
           </p>
         </button>
