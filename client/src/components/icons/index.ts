@@ -1,0 +1,11 @@
+export { default as AddSquareOutline } from "./add-square-outline";
+export { default as HomeFill } from "./home-fill";
+export { default as HomeOutline } from "./home-outline";
+export { default as LogoutOutline } from "./logout-outline";
+export { default as DiscoveryFill } from "./discovery-fill";
+export { default as DiscoveryOutline } from "./discovery-outline";
+export { default as HeartFill } from "./heart-fill";
+export { default as HeartOutline } from "./heart-outline";
+export { default as SearchOutline } from "./search-outline";
+export { default as UserFill } from "./user-fill";
+export { default as UserOutline } from "./user-outline";
