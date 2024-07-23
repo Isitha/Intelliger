@@ -5,11 +5,15 @@ import {
   AddSquareOutline,
   DiscoveryFill,
   DiscoveryOutline,
+  FlashFill,
+  FlashOutline,
   HeartFill,
   HeartOutline,
   HomeFill,
   HomeOutline,
   LogoutOutline,
+  MessageFill,
+  MessageOutline,
   SearchOutline,
   UserFill,
   UserOutline,
@@ -58,7 +62,19 @@ const Sidebar = () => {
               title="Saved"
               route="/saved"
             />
+            <SidebarItem
+              fill={<FlashFill />}
+              outline={<FlashOutline />}
+              title="AI Images"
+              route="/ai"
+            />
             <SidebarItem outline={<AddSquareOutline />} title="Create" />
+            <SidebarItem
+              fill={<MessageFill />}
+              outline={<MessageOutline />}
+              title="Messenger"
+              route="/messenger"
+            />
             <SidebarItem
               fill={<UserFill />}
               outline={<UserOutline />}
